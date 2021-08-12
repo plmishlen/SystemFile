@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemFile", "SystemFile\Sy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Person", "Person\Person.csproj", "{AD855F8A-FE38-4C02-9F61-738A6F3379A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialization", "Serialization\Serialization.csproj", "{6E8A954B-B580-42A0-9284-510C51174F11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Car", "Car\Car.csproj", "{DBF2D2EA-8A15-4F07-A876-D5D7F01A7098}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{AD855F8A-FE38-4C02-9F61-738A6F3379A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD855F8A-FE38-4C02-9F61-738A6F3379A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD855F8A-FE38-4C02-9F61-738A6F3379A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E8A954B-B580-42A0-9284-510C51174F11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E8A954B-B580-42A0-9284-510C51174F11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E8A954B-B580-42A0-9284-510C51174F11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E8A954B-B580-42A0-9284-510C51174F11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBF2D2EA-8A15-4F07-A876-D5D7F01A7098}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBF2D2EA-8A15-4F07-A876-D5D7F01A7098}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBF2D2EA-8A15-4F07-A876-D5D7F01A7098}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBF2D2EA-8A15-4F07-A876-D5D7F01A7098}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

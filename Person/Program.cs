@@ -18,6 +18,7 @@ namespace ConsoleApp1
             }
             public string Name { get; set; }
             public int Age { get; set; }
+            public List<Person> People { get; set; }
         }
         static void Main(string[] args)
         {
@@ -26,6 +27,14 @@ namespace ConsoleApp1
             p2 = new Person("Name2", 43);
             // Name1;33
             // Name2;44
+
+            //Json
+            //XML
+            //SOAP
+
+            //Бинарный формат данных (не распространен)
+            //Yaml
+
             var text = $"{p1.Name};{p1.Age}\n{p2.Name};{p2.Age}";
             WriteLine(text);
             string[] rows = text.Split('\n');
