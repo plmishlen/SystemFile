@@ -26,15 +26,7 @@ namespace ConsoleApp1
             [NonSerialized]
             public List<Person> People = new List<Person>();
         }
-        public class Car
-        {
-            public string Vendor;
-            public string Model;
-            public int Year;
-            public int Poser;
-            public string Color;
-
-        }
+       
         static void Main(string[] args)
         {
             Person

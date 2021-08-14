@@ -41,15 +41,15 @@ namespace ConsoleApp1
 
             JsonSerializer jsonSerializer = new JsonSerializer();
           
-          /*  using (Stream fs = new FileStream("data.json", FileMode.OpenOrCreate))
+           using (Stream fs = new FileStream("data.json", FileMode.OpenOrCreate))
             {
                 using (JsonWriter jsonWriter = new JsonTextWriter(new StreamWriter(fs)))
                 {
                     jsonSerializer.Serialize(jsonWriter, Cars);
                 }
-            }*/
+            }
 
-          // Cars = null;
+           Cars = null;
 
             using (Stream fs = new FileStream("data.json", FileMode.Open))
             {
